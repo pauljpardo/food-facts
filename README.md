@@ -4,6 +4,8 @@
 For this project I decided I wanted to make a site based on facts on different food dishes/cuisines. Having several years of experience in the restaurant industry has given me a special appreciation for different foods from different cultures. Watching Anthony Bourdain's show was also an influence as it showed how the dishes from specific parts of the world tell a story about who the people are and why they ate what they ate. 
 
 <h2>API and Data Sample</h2>
+
+```
 {
                 "aisle": "Baking",
                 "amount": 1.0,
@@ -43,7 +45,7 @@ For this project I decided I wanted to make a site based on facts on different f
                 "unitLong": "",
                 "unitShort": ""
                 }
-                
+```                
 <h2>Wireframe</h2>
 Posted here when done
 
