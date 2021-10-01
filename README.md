@@ -49,7 +49,10 @@ For this project I decided I wanted to make a site based on facts on different f
 <h2>Wireframe</h2>
 Posted here when done
 
-<MVP>
+### MVP/Post MVP
+
+### MVP 
+
 - [x] Retrieve API info
 - [ ] Specify data values to retrieve
 - [ ] Render food dishes to page for the user to choose from
@@ -57,7 +60,7 @@ Posted here when done
 - [ ] Style the page using CSS and Flexbox
 - [ ] Use "mobile first" principles to create a responsive website
 
-## Post-MVP
+### Post-MVP
 - [ ] Add cool features , improve drop down menu
 - [ ] Add tidbits from Anthony Bourdain
  
