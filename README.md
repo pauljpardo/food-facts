@@ -1,5 +1,3 @@
-# food-facts
-My project on food facts and history. 
 
 <h2> Project Description. </h2>
 
