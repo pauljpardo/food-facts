@@ -34,3 +34,7 @@ body {
 
 .dropdown-choices a:hover {background-color: #ddd;} /* change color of dropdown links on hover */
 
+.dropmenu:hover .dropdown-choices{display: block;} /* Show the dropdown menu on hover */
+
+.dropmenu:hover .dropbtn {background-color: #3e8e41;}
+
