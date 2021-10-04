@@ -9,7 +9,7 @@
     tiles.forEach((tile) => {
       const div = document.createElement('div')
       div.innerHTML = `
-      <div class='tile container'>
+      <div class='tile-holder'>
       <a href='${tile.url}'> <img src='${tile.image}' class='image'></a>
       </div> 
       `
@@ -18,12 +18,8 @@
 document.getElementById('tile-container').appendChild(fragment)
   }
 
-
-
-
   async function fetchImgData () {
-  const url = `https://api.spoonacular.com/food/menuItems/
-  search?apiKey=54f523904c8247bda81b6d9f2e9e1322&query=pizza`
+  const url = `https://api.spoonacular.com/food/menuItems/search?apiKey=54f523904c8247bda81b6d9f2e9e1322&query=pizza`
   const res = await fetch(url)
   return res.json()
   }
@@ -38,7 +34,7 @@ document.getElementById('tile-container').appendChild(fragment)
 
   window.addEventListener('DOMContentLoaded', (event) => {
     hasLoaded = true;
-    if (hasLoaded) {
+    if (hasData) {
       renderTiles()
     }
   })
