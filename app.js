@@ -5,6 +5,18 @@ const button = document.getElementById('food-button')
 button.addEventListener('click', () => {
   let allItems = document.querySelectorAll('.item')
   for (let i = 0; i < allItems.length; i++){
+    
+    const foodContent = document.createElement('p')
+    
+    if (i === [0]) {
+      foodContent.innerText = 'Pizza is ____'
+      console.log()
+      //const pizzadiv = document.getElementById('pizza')
+      //pizzadiv = document.createElement('div')
+    } else if (i === [1]){ 
+      
+    } 
+  
     allItems[i].remove();
   }
   let foodOptions = document.getElementById('allFoods')
@@ -33,6 +45,61 @@ const foodImg = document.createElement('img')
     foodImg.src = `${ resJSON.image }`
     document.querySelector('#tile-container').append(foodImg)
     foodImg.className = 'item'
+
+    
+
   }
   
+
+
 })
+
+
+
+/*
+; (function () {
+  let tiles;
+  let hasData;
+  let hasLoaded;
+
+  function renderTiles() {
+    const fragment = new DocumentFragment()
+
+    tiles.forEach((tile) => {
+      const div = document.createElement('div')
+      div.innerHTML = `
+      <div class='tile-holder'>
+      <a href='${tile.url}'> <img src='${tile.image}' class='image'></a>
+      </div> 
+      `
+      fragment.appendChild(div)
+    })
+document.getElementById('tile-container').appendChild(fragment)
+  }
+
+  async function fetchImgData () {
+  
+  const res = await fetch(url)
+  return res.json()
+  }
+  
+  fetch()
+
+  fetchImgData().then((data) => {
+    hasData = true;
+    tiles = data.menuItems
+    if (hasLoaded) {
+      renderTiles()
+    }
+  })
+
+  window.addEventListener('DOMContentLoaded', (event) => {
+    hasLoaded = true;
+    if (hasData) {
+      renderTiles()
+    }
+  })
+    
+}
+)
+*/
