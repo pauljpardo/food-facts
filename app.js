@@ -13,16 +13,16 @@ button.addEventListener('click', () => {
 
     if (i === 0) {
       food = 'pizza'
-    foodContent.innerText = 'Pizza is ____'
+      foodContent.innerText = "Pizza was not always the delicacy it is today. Flatbreads with toppings is an idea that had been around for a long time, even in Greek, Roman and Egyptian eras; around the first century B.C. a Roman poet was found to have written about circles of bread that is thought to look like pizza. In 18th century Naples is when the pizza we think about today was developed, however this type of food was considered a cheap simplistic food because at first all that was used was the dough, garlic and maybe one more ingredient. Modern pizza was born when italians introduced tomatoes to it that would give it it's signature flavor and became a household favorite."
     } else if (i === 1) {
       food = 'tacos'
-      foodContent.innerText = 'Tacos originate from ___'
+      foodContent.innerText = 'Tacos as we know today is a mix of Mexican tastes along with international influences. Tacos are thought to come from Mexico, long before the Spanish arrived. Ancient Mexicans used freshly made, soft, flat corn tortillas and gave them with fillings like fish and cooked organs. It was a staple meal that provided vital nutrients and energy to those who consumed it. In the late 1920s Mexican immigrants started to adapt the traditional taco into a more americanized version, which has a less spicy filling such as ground beef and chicken, and eventually would adopt using ingredients such as cheddar cheese, lettuce and tomato. This became known as the ultimate taco to Americans whose traditional cuisine favored more subtle flavors.'
     } else if (i === 2) {
       food = 'sushi'
-      foodContent.innerText = 'Sushi originates from Japan...'
+      foodContent.innerText = 'Contrary to popular belief, Sushi actually originates from China and not Japan. Sushi originates from an old Chinese dish named narezushi; a dish that consisted of fermented rice and salted fish, may not sound like the most appetizing meal however it was highly functional as we must remember this was where keeping food fresh and edible was a daily challenge, and narezushi was very effective at being a consistent meal. This dish even dates back to the 2nd Century BC. Modern day sushi really began to take place in the 1800s but it was often cooked as this was still prior to being able to keep raw food fresh for long, however a chef named Hanaya Yohei changed this when he came up with a sliver of fish on top of sticky rice, which today is what we know as Nigiri. Sushi became popular in the U.S. and the Western world in the 1960s when middle class citizens started to try sushi and began loving it, it would be adapted in many ways and would eventually result in what we call Sushi today.'
     } else if (i === 3) {
       food = 'risotto'
-      foodContent.innerText = 'Risotto is '
+      foodContent.innerText = 'Risotto is defined as a northern Italian dish with rice and a creamy texture. Interestingly enough, as you may or may not know rice is not often associated with Italian food and that is because it was not introduced to Italy, Sicily and Spain until the 14th century by the Arabs. Due to the Mediterranean climate with high humidity, the rice that would be grown in this area would be short and medium-grained rice. The recipe that resembles todays risotto was one that was published in 1829, which included roasting the rice with butter and onion, followed by adding broth little by little until it reached a creamy consistency.'
     } else if (i === 4) {
       food = 'lasagna'
       foodContent.innerText = 'Lasagna is a famous'
@@ -44,7 +44,8 @@ button.addEventListener('click', () => {
   // let foodOptions = document.getElementById('allFoods')
   // let food = foodOptions.options[foodOptions.selectedIndex].text
 
-const url = `https://api.spoonacular.com/food/menuItems/search?apiKey=54f523904c8247bda81b6d9f2e9e1322&query=${food}`
+  const url = `https://api.spoonacular.com/food/menuItems/search?apiKey
+=54f523904c8247bda81b6d9f2e9e1322&query=${food}`
 
 
 fetch(url)
