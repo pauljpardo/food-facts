@@ -25,7 +25,7 @@ button.addEventListener('click', () => {
       foodContent.innerText = 'Risotto is defined as a northern Italian dish with rice and a creamy texture. Interestingly enough, as you may or may not know rice is not often associated with Italian food and that is because it was not introduced to Italy, Sicily and Spain until the 14th century by the Arabs. Due to the Mediterranean climate with high humidity, the rice that would be grown in this area would be short and medium-grained rice. The recipe that resembles todays risotto was one that was published in 1829, which included roasting the rice with butter and onion, followed by adding broth little by little until it reached a creamy consistency.'
     } else if (i === 4) {
       food = 'lasagna'
-      foodContent.innerText = 'Lasagna is a famous'
+      foodContent.innerText = 'Lasagna is a famous wide, flat pasta dish and is a very old dish. Lasange (plural for Lasanga) originated from Italy, traditionally the dough for the pasta was made in Southern Italy with semolina and water, and in North Italy, substituted semolina for flour and eggs due to it not being available in the North. The oldest Lasanga recipe is dated in the 13th century, however the original recipes did not include tomatoes as they were not yet known to Europeans, and many Europeans believed that tomatoes were poisonous. Instead it just consisted of different cheeses. It wasnt until the 1880s where recipes can be found in Italian cookbooks that featured tomato sauce and became what it is today.'
     } else if (i === 5) {
       food = 'paella'
       foodContent.innerText = 'Paella originates from Spain.'
