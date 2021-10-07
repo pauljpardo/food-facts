@@ -31,7 +31,7 @@ button.addEventListener('click', () => {
       foodContent.innerText = 'Paella is perhaps the most famous dish to come from Spain. If you havent already tried it I emplore you to find your nearest spanish restaurant and give it a try; my family originates from Spain so it was made in my house countless times. Paella first was originally made by farmers and farm labourers, cooked over a wood fire for a quick lunchtime meal. Paella is typically cooked with rice, chicken, green peppers, onions, shrimps, scallops, and the list does not really end since there are so many different variations of it. However, when it was first invented it was mostly cooked with rice, tomatoes, onions, rabbit or duck could also have been added, and chicken was for a special occasion, with a touch of saffron for the yellow coloring it provides. Traditional Paella was always eaten straight out of the pan with each person using their own wooden spoon, this is how it is typically served in authentic restaurants.'
     } else if (i === 6) {
       food = 'gyros'
-      foodContent.innerText = 'Gyros are a famous greek'
+      foodContent.innerText = 'Gyros in todays world are the current popular greek sandwich on pita bread, usually paired with lamb, lettuce, tomato, and tzaiki sauce. Although delicious, this sandwich has actually been deemed to have been created as recent as the 1970s out of New York City by greek immigrants opening their own restaurants. Greek historians believe the origin of the actual gyro meat comes from the army of Alexander the great, who skewered meet on knives and cooked it over a fire by turning it. '
     } else if (i === 7) {
       food = 'padthai'
       foodContent.innerText = 'Pad Thai is a '
