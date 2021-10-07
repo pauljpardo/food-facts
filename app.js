@@ -34,7 +34,7 @@ button.addEventListener('click', () => {
       foodContent.innerText = 'Gyros in todays world are the current popular greek sandwich on pita bread, usually paired with lamb, lettuce, tomato, and tzaiki sauce. Although delicious, this sandwich has actually been deemed to have been created as recent as the 1970s out of New York City by greek immigrants opening their own restaurants. Greek historians believe the origin of the actual gyro meat comes from the army of Alexander the great, who skewered meet on knives and cooked it over a fire by turning it. '
     } else if (i === 7) {
       food = 'padthai'
-      foodContent.innerText = 'Pad Thai is a '
+      foodContent.innerText = 'Funny enoough, Pad Thai is a recently new dish and even is the youngest dish on this list. In the late 1930s and early 40s World War II was approaching and the Thai government felt an increasing sense of pressure from their neighbors being colonized by the French and English, along with an increased neighboring pressure with China becoming more powerful. The current Thai leader Plaek Phibunsongkhram felt as though that the Thai people needed more of a sense of culture, and felt as though Pad Thai was a good way to raise his countrys nationalism and implored the population to make and eat Pad Thai. At the time, Pad Thai was a new concept for the Thai people, but it caught on quickly and became a staple. Fast foward a couple years later, Plaek Phibunsongkhram was driven out of office and most of his policies were abandoned, however interestingly enough Pad Thai stuck within the culture and its political origin was forever left behind in the past. '
     }
     
     foodDiv.append(foodContent)
