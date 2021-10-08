@@ -56,13 +56,15 @@ Posted here when done
 
 - [x] Retrieve API info
 
-- [ ] Render food dishes to page for the user to choose from
-- [ ] Build layout using HTML and JavaScript
-- [ ] Style the page using CSS and Flexbox
-- [ ] Use "mobile first" principles to create a responsive website
+- [x] Render food dishes to page for the user to choose from
+- [x] Build layout using HTML and JavaScript
+- [x] Style the page using CSS and Flexbox
+- [x] Use "mobile first" principles to create a responsive website
 
 ### Post-MVP
-- [ ] Specify data values to retrieve
-- [ ] Add cool features , improve drop down menu
-- [ ] Add tidbits from Anthony Bourdain
+- [x] Specify data values to retrieve
+- [x] Add cool features , improve drop down menu
+- [x] Add tidbits from Anthony Bourdain
+ 
+ 
  
