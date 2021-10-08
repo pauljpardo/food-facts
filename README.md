@@ -3,6 +3,10 @@
 
 For this project I decided I wanted to make a site based on facts and history on different food dishes/cuisines. Having several years of experience in the restaurant industry has given me a special appreciation for different foods from different cultures. Watching Anthony Bourdain's show was also an influence as it showed how the dishes from specific parts of the world tell a story about who the people are and why they ate what they ate. 
 
+
+### Project Link
+https://pauljpardo.github.io/food-facts/
+
 <h2>API and Data Sample</h2>
 https://spoonacular.com/food-api/docs
 
