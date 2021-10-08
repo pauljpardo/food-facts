@@ -64,8 +64,7 @@ https://whimsical.com/6RU3RTh5CEYy56tfbJjQRP
 ### Post-MVP
 - [x] Specify data values to retrieve
 - [x] Add cool features , improve drop down menu
-- [x] Add tidbits from Anthony Bourdain
- 
+
 
   ### Time Estimates
  
