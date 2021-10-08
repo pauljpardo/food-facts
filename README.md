@@ -67,7 +67,18 @@ https://whimsical.com/6RU3RTh5CEYy56tfbJjQRP
 - [x] Add tidbits from Anthony Bourdain
  
 
+  ### Time Estimates
  
+ Planning ~ 3 hrs
  
+ HTML/Setup ~ 2 hrs
  
+ JavaScript Beginning structure ~ 2 hrs
  
+ API Troubleshooting/Call/Rendering ~ 3 hrs
+ 
+ Troubleshooting JavaScript/Correcting ~ 2.5 hrs
+ 
+ CSS - 3 hrs
+ 
+
