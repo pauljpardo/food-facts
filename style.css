@@ -28,11 +28,19 @@ body {
   margin: 0 auto;
 }
 
+.item-title {
+  padding: 10px;
+}
+
+.item-img{
+  padding: 10px;
+}
+
 .food-description{
   margin: 20px;
   border:2px solid black;
   border-radius: 8px;
-  padding: 8px;
+  padding: 10px;
 }
 footer {
   text-align: left;
