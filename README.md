@@ -48,7 +48,7 @@ https://spoonacular.com/food-api/docs
                 }
 ```                
 <h2>Wireframe</h2>
-Posted here when done
+https://whimsical.com/6RU3RTh5CEYy56tfbJjQRP
 
 ### MVP/Post MVP
 
@@ -65,6 +65,9 @@ Posted here when done
 - [x] Specify data values to retrieve
 - [x] Add cool features , improve drop down menu
 - [x] Add tidbits from Anthony Bourdain
+ 
+
+ 
  
  
  
