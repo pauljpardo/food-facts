@@ -11,7 +11,8 @@ button.addEventListener('click', () => {
 
   // for (let i = 0; i < allItems.length; i++){
    
-    const foodContent = document.createElement('p')
+  const foodContent = document.createElement('p')
+  foodContent.className = 'food-description'
     
     console.log(allItems.length)
 
@@ -69,12 +70,12 @@ fetch(url)
   const foodTitle = document.createElement('h4')
   foodTitle.innerHTML = resJSON.title
     document.querySelector('#tile-container').append(foodTitle)
-    foodTitle.className = 'item'
+    foodTitle.className = 'item-title'
 
 const foodImg = document.createElement('img')
     foodImg.src = `${ resJSON.image }`
     document.querySelector('#tile-container').append(foodImg)
-    foodImg.className = 'item'
+    foodImg.className = 'item-img'
 
     // const foodInfo = document.createElement('p')
     // foodInfo.innerText = allInfo
